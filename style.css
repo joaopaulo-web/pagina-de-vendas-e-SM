@@ -1,4 +1,3 @@
-
 *{
     margin: 0;
 }
@@ -18,6 +17,7 @@ header{
     width: 32.854164123535156px;
 }
 .left-header-text{
+    font-family: 'Satoshi';
     display: flex;
     justify-items: center;
     align-items: left;
@@ -25,7 +25,6 @@ header{
     margin-left: 18.46px;
 }
 .left-header-text > h1{
-    font-family: Satoshi;
     font-size: 20px;
     font-weight: 500;
     line-height: 27px;
@@ -35,11 +34,27 @@ header{
 }
 .left-header-text > h2{
     color: #F2714B;
-    font-family: Satoshi;
     font-size: 12px;
     font-weight: 500;
     line-height: 16px;
     letter-spacing: 0em;
     text-align: left;
-
+}
+.right-header{
+    font-family: Satoshi;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-left: 600px;
+    padding-top: 39px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+.right-header > a{
+    padding-right: 15px;
+    color: #FF2D2D;
+    text-decoration: none;
 }
