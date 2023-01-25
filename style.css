@@ -1,0 +1,45 @@
+
+*{
+    margin: 0;
+}
+body{
+    background: #F9F9F9;
+}
+header{
+    display: flex;
+}
+.left-header{
+    display: flex;
+    margin-left: 165px;
+    margin-top: 33.35px;
+}
+.left-header > img{
+    height: 35.44791793823242px;
+    width: 32.854164123535156px;
+}
+.left-header-text{
+    display: flex;
+    justify-items: center;
+    align-items: left;
+    flex-direction: column;
+    margin-left: 18.46px;
+}
+.left-header-text > h1{
+    font-family: Satoshi;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.left-header-text > h2{
+    color: #F2714B;
+    font-family: Satoshi;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
