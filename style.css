@@ -67,7 +67,7 @@ header{
     width: 1300px;
 }
 .part1{
-    border-radius: 16px;
+    border-radius: 18px;
     background: url(imgs/part1-bg1.png);
     position: absolute;
     margin-top: 40px;
@@ -169,8 +169,13 @@ header{
 }
 .part3{
     position: absolute;
+    height: 533px;
+    width: 580px;
     top: 1430px;
     left: 141px;
+}
+.part3-left{
+    height: 515px;
 }
 .part3-left1{
     position: relative;
@@ -179,4 +184,28 @@ header{
     position: relative;
     top: -640px;
     right: 34px;
+}
+.part3-right{
+    position: relative;
+    left: 610px;
+    top: -500px;
+}
+.part3-right-tittle{
+    padding-right: 60px;
+    width: 520px;
+    margin-bottom: 28px;
+}
+.part3-right-tittle > h1 > span{
+    color: #FF520A;
+}
+.frame1, .frame2, .frame3, .frame4, .frame5, .frame6, .frame7, .frame8, .frame9, .frame10, .frame11, .frame12{
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    opacity: 0.8;
+    gap: 11px;
+    display: flex;
+    margin-bottom: 21px;
 }
