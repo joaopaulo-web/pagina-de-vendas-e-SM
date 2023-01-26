@@ -198,7 +198,7 @@ header{
 .part3-right-tittle > h1 > span{
     color: #FF520A;
 }
-.frame1, .frame2, .frame3, .frame4, .frame5, .frame6, .frame7, .frame8, .frame9, .frame10, .frame11, .frame12{
+.frame1, .frame2, .frame3, .frame4, .frame5, .frame6, .frame7, .frame8, .frame9, .frame10, .frame11{
     font-family: 'Satoshi';
     font-style: normal;
     font-weight: 500;
@@ -208,4 +208,36 @@ header{
     gap: 11px;
     display: flex;
     margin-bottom: 21px;
+}
+.part3-btns{
+    display: flex;
+    flex-direction: column;
+}
+.btn1{
+    padding: 10px;
+    gap: 10px;
+    width: 110px;
+    height: 38px;
+    background: #9CFFED;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    position: absolute;
+}
+.btn1 > img{
+    position: relative;
+    top: 20px;
+    left: 0px;
+}.btn1 > p{
+    position: relative;
+    top: -10px;
+    left: 20px;
+}
+.btn1 > p{
+    width: 50px;
+    height: 38px;
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
 }
