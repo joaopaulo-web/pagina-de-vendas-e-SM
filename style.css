@@ -2,6 +2,7 @@
     font-family: 'Satoshi';
     margin: 0;
 }
+
 body{
     position: absolute;
     background: #F9F9F9;
@@ -294,6 +295,55 @@ header{
     color: #FF520A;
 }
 .frame1, .frame2, .frame3, .frame4, .frame5, .frame6, .frame7, .frame8, .frame9, .frame10, .frame11{
+    width: 484px;
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    opacity: 0.8;
+    gap: 11px;
+    display: flex;
+    margin-bottom: 21px;
+}
+.part4 > a{
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #089752;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 100px;
+    background: #CEFFE8;
+    padding: 10px 24px;
+    text-decoration: none;
+    top: 1880px;
+    left: 160px;
+    position: relative;
+}
+.part4 > h1{
+    position: relative;
+    width: 850px;
+    top: 1910px;
+    left: 160px;
+}
+.part4 > h1 > span{
+    color: #FF520A;
+}
+.part4 > h2{
+    position: relative;
+    width: 850px;
+    top: 1990px;
+    left: 160px;
+}
+.part4 > h2 > span{
+    color: #FF520A;
+}
+.part4 > .frame11, .frame22, .frame33, .frame44, .frame55, .frame66{
+    position: relative;
+    top: 2030px;
+    left: 170px;
     width: 484px;
     font-family: 'Satoshi';
     font-style: normal;
