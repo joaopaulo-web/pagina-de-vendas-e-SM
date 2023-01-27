@@ -342,7 +342,7 @@ header{
 }
 .part4 > .frame11, .frame22, .frame33, .frame44, .frame55, .frame66{
     position: relative;
-    top: 2030px;
+    top: 950px;
     left: 170px;
     width: 484px;
     font-family: 'Satoshi';
@@ -354,4 +354,133 @@ header{
     gap: 11px;
     display: flex;
     margin-bottom: 21px;
+}
+.button22{
+    position: relative;
+    top: -1100px;
+    left: 1px;
+    width: 390px;
+}
+.button22 > a{
+    text-decoration: none;
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    border-radius: 8px;
+    padding: 10px 20px;
+    background-color: #01A862;
+    position: relative;
+    top: 2060px;
+    left: 170px;
+}
+.button2 > a > img{
+    height: 13px;
+    width: 13px;
+    margin-left: 10px;
+}
+.buttons1{
+    position: relative;
+    top: 1004px;
+    left: 170px;
+    display: flex;
+    width: 420px;
+    height: 60px;
+}
+.button1-1{
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius:4px;
+    background-color: #9CFFED;
+    width: 130px;
+    height: 60px;
+    margin-right: 20px;
+}
+.button1-1 > p> img{
+    position: relative;
+    height: 21px;
+    width: 18px;
+    top: 29px;
+    left: -28px;
+}
+.button1-1 > p{
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    position: relative;
+    top: -26px;
+    padding: 10px 31px 10px 39px;
+    width: 10px;
+    height: 60px;
+    margin-right: 20px;
+}
+.button2-2{
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius:4px;
+    background-color: #9CFFED;
+    width: 130px;
+    height: 60px;
+    margin-right: 20px;
+}
+.button2-2 > p> img{
+    position: relative;
+    height: 18px;
+    width: 18px;
+    top: 26px;
+    left: -28px;
+}
+.button2-2 > p{
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    position: relative;
+    top: -25px;
+    padding: 10px 20px 10px 37px;
+    width: 10px;
+    height: 60px;
+    margin-right: 20px;
+}
+.button3-3{
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius:4px;
+    background-color: #9CFFED;
+    width: 130px;
+    height: 60px;
+}
+.button3-3 > p> img{
+    position: relative;
+    height: 19px;
+    width: 17px;
+    top: 25px;
+    left: -22px;
+}
+.button3-3 > p{
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    position: relative;
+    bottom: 24px;
+    padding: 10px 12px 10px 35px;
+    width: 10px;
+    height: 60px;
+    margin-right: 20px;
+}
+.part4-right1{
+    position: relative;
+    width: 523px;
+    top: 2060px;
+    left: 740px;
+}
+.part4-right2{
+    position: relative;
+    width: 523px;
+    top: 1481px;
+    left: 821px
 }
