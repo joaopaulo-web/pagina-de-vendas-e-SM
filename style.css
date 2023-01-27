@@ -168,30 +168,125 @@ header{
     border-radius: 4px;
 }
 .part3{
+    background-color: #ffffff;
     position: absolute;
-    height: 533px;
-    width: 580px;
+    height: 710px;
+    width: 90%;
+    padding-left: 190px;
+    padding-top: 90px;
+    padding-bottom: 90px;
     top: 1430px;
-    left: 141px;
+    left: 32px
+}
+.buttons{
+    position: relative;
+    display: flex;
+    width: 420px;
+    height: 60px;
+}
+.button1{
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius:4px;
+    background-color: #9CFFED;
+    width: 130px;
+    height: 60px;
+    margin-right: 20px;
+}
+.button1 > p> img{
+    position: relative;
+    height: 21px;
+    width: 18px;
+    top: 29px;
+    left: -28px;
+}
+.button1 > p{
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    position: relative;
+    top: -26px;
+    padding: 10px 31px 10px 39px;
+    width: 10px;
+    height: 60px;
+    margin-right: 20px;
+}
+.button2{
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius:4px;
+    background-color: #9CFFED;
+    width: 130px;
+    height: 60px;
+    margin-right: 20px;
+}
+.button2 > p> img{
+    position: relative;
+    height: 18px;
+    width: 18px;
+    top: 26px;
+    left: -28px;
+}
+.button2 > p{
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    position: relative;
+    top: -25px;
+    padding: 10px 20px 10px 37px;
+    width: 10px;
+    height: 60px;
+    margin-right: 20px;
+}
+.button3{
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius:4px;
+    background-color: #9CFFED;
+    width: 130px;
+    height: 60px;
+}
+.button3 > p> img{
+    position: relative;
+    height: 19px;
+    width: 17px;
+    top: 25px;
+    left: -22px;
+}
+.button3 > p{
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    position: relative;
+    bottom: 24px;
+    padding: 10px 12px 10px 35px;
+    width: 10px;
+    height: 60px;
+    margin-right: 20px;
 }
 .part3-left{
+    margin-right: 20px;
     height: 515px;
 }
 .part3-left1{
     position: relative;
+    left: -80px;
 }
 .part3-left2{
     position: relative;
     top: -640px;
-    right: 34px;
+    right: 94px;
 }
 .part3-right{
     position: relative;
-    left: 610px;
+    left: 569px;
     top: -500px;
+    width: 484px
 }
 .part3-right-tittle{
-    padding-right: 60px;
     width: 520px;
     margin-bottom: 28px;
 }
@@ -199,6 +294,7 @@ header{
     color: #FF520A;
 }
 .frame1, .frame2, .frame3, .frame4, .frame5, .frame6, .frame7, .frame8, .frame9, .frame10, .frame11{
+    width: 484px;
     font-family: 'Satoshi';
     font-style: normal;
     font-weight: 500;
@@ -208,36 +304,4 @@ header{
     gap: 11px;
     display: flex;
     margin-bottom: 21px;
-}
-.part3-btns{
-    display: flex;
-    flex-direction: column;
-}
-.btn1{
-    padding: 10px;
-    gap: 10px;
-    width: 110px;
-    height: 38px;
-    background: #9CFFED;
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    border-radius: 4px;
-    position: absolute;
-}
-.btn1 > img{
-    position: relative;
-    top: 20px;
-    left: 0px;
-}.btn1 > p{
-    position: relative;
-    top: -10px;
-    left: 20px;
-}
-.btn1 > p{
-    width: 50px;
-    height: 38px;
-    font-family: 'Satoshi';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 19px;
 }
